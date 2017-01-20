@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<mapping>
+    <root name="documentBatch" rowName="scanDocument">
+        <id name="batchid">
+            <content>id</content>
+        </id>
+        <element name="category">
+            <content>category</content>
+        </element>
+        <element name="documentTypeCode">
+            <content>principle</content>
+        </element>
+        <element name="numPages">
+            <content>client</content>
+        </element>
+        <element name="scanDate">
+            <content>plan_attach_date</content>
+        </element>
+        <element name="applicationId">
+            <content>id</content>
+        </element>
+        <element name="policyNumber">
+            <content>policy_no</content>
+        </element>
+        <element name="policyOwnerName">
+            <content>policy_holder</content>
+        </element>
+        <element name="backscanIndicator">
+            <content>client</content>
+        </element>
+        <element name="notes">
+            <content>other_diagnosis</content>
+        </element>
+        <element name="caseId">
+            <content>id</content>
+        </element>
+        <element name="fileName">
+            <content>created_by</content>
+        </element>
+    </root>
+</mapping>
