@@ -6,6 +6,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -53,8 +55,19 @@ public class SendXml {
         ResultSet resultset = null;
         ResultSetMetaData resultmetadata = null;
         Element dataRoot = dataDoc.createElement("data");
+        
+        //add date format
+        Date dt = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("M/dd/yyyy");
+        String strDate = sdf.format(dt);
+        //System.out.println(strDate);
+        //end format
+        
         try {
-            statement = conn.prepareStatement("select * from `case`  where client='10'");
+          //statement = conn.prepareStatement("select * from `case`  where client='10'");
+          //String sql = "select * from `case` where client='10' and haf_doc_completed_date like '%7/12/2015%'"; 
+            String sql = "select * from `case` where client='10' and haf_doc_completed_date not like '%" + strDate + "%'"; 
+            statement = conn.prepareStatement(sql);
             resultset = statement.executeQuery();
             resultmetadata = resultset.getMetaData();
             int numcols = resultmetadata.getColumnCount();
