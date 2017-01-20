@@ -54,7 +54,6 @@ public class SendXml {
         ResultSetMetaData resultmetadata = null;
         Element dataRoot = dataDoc.createElement("data");
         try {
-            //statement = conn.prepareStatement("select * from `case`  where id='849'");
             statement = conn.prepareStatement("select * from `case`  where client='10'");
             resultset = statement.executeQuery();
             resultmetadata = resultset.getMetaData();
