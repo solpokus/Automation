@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><documentBatch>
+    <batchid>10176</batchid>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>490</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>10174</applicationId>
+        <policyNumber>EC000000000370W</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>DEMAM TIFOID</notes>
+        <caseId>10174</caseId>
+        <fileName>Administrator</fileName>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>492</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>10176</applicationId>
+        <policyNumber>EC000000000798P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>MORBILI</notes>
+        <caseId>10176</caseId>
+        <fileName>Administrator</fileName>
+    </scanDocument>
+</documentBatch>
