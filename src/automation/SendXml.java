@@ -64,9 +64,10 @@ public class SendXml {
         //end format
         
         try {
-          //statement = conn.prepareStatement("select * from `case`  where client='10'");
-          //String sql = "select * from `case` where client='10' and haf_doc_completed_date like '%7/12/2015%'"; 
-            String sql = "select * from `case` where client='10' and haf_doc_completed_date not like '%" + strDate + "%'"; 
+          //statement = conn.prepareStatement("select * from `case`  where client='1' and upload_haf is NOT NULL and upload_doc is NOT NULL");
+          //  String sql = "select * from `case` where client='10' and haf_doc_completed_date like '%7/12/2015%'"; 
+          //  String sql = "select * from `case` where client='10' and haf_doc_completed_date like '%" + strDate + "%'"; 
+            String sql = "select * from `case` where client='10'"; 
             statement = conn.prepareStatement(sql);
             resultset = statement.executeQuery();
             resultmetadata = resultset.getMetaData();
@@ -78,7 +79,7 @@ public class SendXml {
                     String colName = resultmetadata.getColumnName(i);
                     String colVal = resultset.getString(i);
                     if (resultset.wasNull()) {
-                        colVal = "and up";
+                        colVal = "";
                     }
                     Element dataEl = dataDoc.createElement(colName);
                     dataEl.appendChild(dataDoc.createTextNode(colVal));
@@ -188,10 +189,10 @@ public class SendXml {
         transformer.transform(domSource, sr);
 
         //add to create new file
-//        StreamResult result = new StreamResult(new File("aia.xml"));
-//        transformer.transform(domSource, result);
-//        StreamResult consoleResult =  new StreamResult(System.out);
-//        transformer.transform(domSource, consoleResult);
+        StreamResult result = new StreamResult(new File("aia.xml"));
+        transformer.transform(domSource, result);
+        StreamResult consoleResult =  new StreamResult(System.out);
+        transformer.transform(domSource, consoleResult);
         //end add
         
         System.out.println(sw.toString());

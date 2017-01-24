@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><documentBatch>
-    <batchid>10176</batchid>
+    <batchid>9999910</batchid>
     <scanDocument>
         <category>1</category>
         <documentTypeCode>490</documentTypeCode>
@@ -11,7 +11,7 @@
         <backscanIndicator>10</backscanIndicator>
         <notes>DEMAM TIFOID</notes>
         <caseId>10174</caseId>
-        <fileName>Administrator</fileName>
+        <fileName/>
     </scanDocument>
     <scanDocument>
         <category>1</category>
@@ -24,6 +24,86 @@
         <backscanIndicator>10</backscanIndicator>
         <notes>MORBILI</notes>
         <caseId>10176</caseId>
-        <fileName>Administrator</fileName>
+        <fileName/>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>499</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>99910</applicationId>
+        <policyNumber>EC000000000499P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>VERTIGO</notes>
+        <caseId>99910</caseId>
+        <fileName/>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>4991</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>9999910</applicationId>
+        <policyNumber>EC000000004991P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>NOT</notes>
+        <caseId>9999910</caseId>
+        <fileName/>
+    </scanDocument>
+</documentBatch><?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><documentBatch>
+    <batchid>9999910</batchid>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>490</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>10174</applicationId>
+        <policyNumber>EC000000000370W</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>DEMAM TIFOID</notes>
+        <caseId>10174</caseId>
+        <fileName/>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>492</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>10176</applicationId>
+        <policyNumber>EC000000000798P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>MORBILI</notes>
+        <caseId>10176</caseId>
+        <fileName/>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>499</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>99910</applicationId>
+        <policyNumber>EC000000000499P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>VERTIGO</notes>
+        <caseId>99910</caseId>
+        <fileName/>
+    </scanDocument>
+    <scanDocument>
+        <category>1</category>
+        <documentTypeCode>4991</documentTypeCode>
+        <numPages>10</numPages>
+        <scanDate>2/14/2014</scanDate>
+        <applicationId>9999910</applicationId>
+        <policyNumber>EC000000004991P</policyNumber>
+        <policyOwnerName/>
+        <backscanIndicator>10</backscanIndicator>
+        <notes>NOT</notes>
+        <caseId>9999910</caseId>
+        <fileName/>
     </scanDocument>
 </documentBatch>
